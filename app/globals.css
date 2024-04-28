@@ -2,6 +2,8 @@ body {
     background-color: #000000;
     color: white;
     height: 100vh;
+    width: 100%;
+    margin: 0;
     font: 16px 'Circe', sans-serif;
     /* font-family: "Exo 2", sans-serif; */
     font-optical-sizing: auto;
@@ -16,8 +18,4 @@ a {
 a:hover {
     color: rgb(255, 255, 255);
     text-decoration: none;
-}
-
-.avatar {
-    border-radius: 50%;
 }
