@@ -12,17 +12,18 @@
     padding: 10px 10px 100px;
 }
 
-.navbarLeft {
-    display: flex;
-    align-items: center;
-}
-
 /* Логотип сайта */
 .navbarBrand {
     font-size: 1.8rem;
     padding-left: 1%;
 }
 
+/* НАВИГАЦИОННЫЕ ССЫЛКИ + ПОИСК/ВХОД */
+.navbarCollapse {
+    justify-content: space-between;
+}
+
+/* ГРУППА НАВИГАЦИОННЫХ ССЫЛОК */
 .navbarNavItems {
     display: flex;
     list-style-type: none;
@@ -35,42 +36,52 @@
     font-size: 1.8rem;
 }
 
+/* СТРОКА ПОИСКА И КНОПКА ВХОДА */
 .navbarSearchLogin {
     display: flex;
     align-items: center;
 }
 
-.navbarSearch, .navbarLogin {
-    margin-right: 15px;
-    min-height: 1.8rem;
-}
+
+/*.navbarLeft {*/
+/*    display: flex;*/
+/*    align-items: center;*/
+/*}*/
+
+/*.containerFluid {*/
+/*    display: flex;*/
+/*}*/
+
+/*.navbarSearch, .navbarLogin {*/
+/*    background: transparent;*/
+/*}*/
 
 /* Кнопка входа */
-.btn-outline-success {
-    padding: 8px 16px;
-    margin-left: 1%;
-    border-color: #28a745;
-    color: #28a745;
-}
+/*.btn-outline-success {*/
+/*    padding: 8px 16px;*/
+/*    margin-left: 1%;*/
+/*    border-color: #28a745;*/
+/*    color: #28a745;*/
+/*}*/
 
-.d-flex {
-    margin: 0 10px 0 0;
-}
+/*.d-flex {*/
+/*    margin: 0 10px 0 0;*/
+/*}*/
 
-.navbarSearchForm {
-    height: 42px;
-    background-color: #00000000;
-    border-radius: 0.375rem;
-    color: lightgrey;
-}
+/*.navbarSearchForm {*/
+/*    height: 42px;*/
+/*    background-color: #00000000;*/
+/*    border-radius: 0.375rem;*/
+/*    color: lightgrey;*/
+/*}*/
 
-/* Стили для мобильных устройств */
-@media (max-width: 991px) {
-    .navbar-toggler {
-        border-color: rgba(255, 255, 255, .1);
-    }
+/*!* Стили для мобильных устройств *!*/
+/*@media (max-width: 991px) {*/
+/*    .navbar-toggler {*/
+/*        border-color: rgba(255, 255, 255, .1);*/
+/*    }*/
 
-    .navbar-collapse {
-        background: rgba(0, 0, 0, .85);
-    }
-}
+/*    .navbar-collapse {*/
+/*        background: rgba(0, 0, 0, .85);*/
+/*    }*/
+/*}*/

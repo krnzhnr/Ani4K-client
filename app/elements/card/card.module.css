@@ -1,0 +1,30 @@
+.card {
+    z-index: 5;
+    min-height: 172px;
+    max-height: 172px;
+    min-width: 306px;
+    max-width: 306px;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 65px 30px #000000;
+    z-index: 15;
+}
+
+.cardImg {
+    object-fit: cover;
+    object-position: 50% 25%;
+    transition: .2s;
+}
+
+.cardImgOverlay {
+    top: 0;
+}
+
+.cardText, .cardTitle {
+    color: white;
+}
