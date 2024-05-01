@@ -1,0 +1,19 @@
+.containerFluid {
+    position: relative;
+    /*max-width: 1800px;*/
+    margin: auto;
+    top: 130px;
+}
+
+.gridHeader {
+    display: flex;
+    justify-content: center;
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+
+.cardList {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}

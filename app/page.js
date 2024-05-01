@@ -2,8 +2,8 @@
 
 import Banner from "@/app/elements/banner/banner";
 import Navbar from "@/app/elements/navbar/navbar";
+import ScrollSection from "@/app/elements/scroll-section/scroll-section";
 import {useEffect} from "react";
-import Card from "@/app/elements/card/card";
 
 export default function Home() {
     useEffect(() => {
@@ -14,13 +14,8 @@ export default function Home() {
         <>
             <Navbar/>
             <Banner/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
-            <Card/>
+            <ScrollSection/>
+            <ScrollSection/>
         </>
     );
 }

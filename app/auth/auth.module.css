@@ -1,0 +1,42 @@
+.authHeader {
+    margin-bottom: 1rem;
+}
+
+.authSeparator {
+    margin: 0.5rem 0;
+}
+
+.authContainer {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.authItems {
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+    min-width: 250px;
+    margin: 5px 0 5px;
+}
+
+.socialBtn {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.discordBtn {
+    background-color: #4a47d7;
+    color: white;
+    border: none;
+}
+
+.discordBtn:hover {
+    background-color: hsl(241, 64%, 60%);
+    color: white;
+}

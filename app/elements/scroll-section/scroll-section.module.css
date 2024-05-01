@@ -1,0 +1,27 @@
+.containerFluid {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 3;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+}
+
+.scrollSectionHeader {
+    padding-left: .75rem;
+    width: fit-content;
+    z-index: 1;
+}
+
+.scrollSectionScroll {
+    display: flex;
+    overflow-x: auto;
+    overflow-y: visible;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    min-height: 187px;
+    scroll-padding-left: .75rem;
+    padding-top: 1rem;
+    align-items: center;
+    z-index: 5;
+}

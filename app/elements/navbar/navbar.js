@@ -6,7 +6,7 @@ export default function Navbar() {
 
         <nav className={`${styles.navbar} navbar navbar-expand-lg`}>
             <div className={`${styles.containerFluid} container-fluid`}>
-                <a className={`${styles.navbarBrand} navbar-brand`} href="#">
+                <a className={`${styles.navbarBrand} navbar-brand`} href="/">
                     Ani4K
                 </a>
                 <button
@@ -22,13 +22,13 @@ export default function Navbar() {
                 </button>
                 <div className={`${styles.navbarCollapse} collapse navbar-collapse`} id="navbarNavAltMarkup">
                     <div className={`${styles.navbarNavItems} navbar-nav mr-auto`}>
-                        <a className={`${styles.navbarNavLink} nav-link active`} aria-current="page" href="#">
+                        <a className={`${styles.navbarNavLink} nav-link active`} aria-current="page" href="/">
                             Главная
                         </a>
-                        <a className={`${styles.navbarNavLink} nav-link`} href="#">
+                        <a className={`${styles.navbarNavLink} nav-link`} href="/grid/catalog">
                             Каталог
                         </a>
-                        <a className={`${styles.navbarNavLink} nav-link`} href="#">
+                        <a className={`${styles.navbarNavLink} nav-link`} href="/grid/available-in-4k">
                             4K UHD
                         </a>
                         <a className={`${styles.navbarNavLink} nav-link disabled`}>Отключенная <span
@@ -47,7 +47,7 @@ export default function Navbar() {
                         <div className="form-inline my-2 my-lg-0">
                             <a
                                 className="btn btn-outline-success my-2 my-sm-0"
-                                href="#"
+                                href="/auth"
                             >
                                 Войти
                             </a>

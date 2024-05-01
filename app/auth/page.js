@@ -1,13 +1,16 @@
-export default function Auth() {
+import styles from "@/app/auth/auth.module.css"
+
+export default function Page() {
     return (
-        <div className="container-xs auth-container">
-            <h1 className="auth-header">Авторизация</h1>
-            <div className="auth-items">
+        <div className={`container-xs ${styles.authContainer}`}>
+            <h1 className={styles.authHeader}>Авторизация</h1>
+            <div className={styles.authItems}>
                 <a
                     href="https://discord.com/channels/863482097896783893/863482098604965942"
                     className="auth-button"
                 >
-                    <button type="button" className="btn btn-light discord-btn social-btn">
+                    <button type="button"
+                            className={`${styles.btn} btn btn-light ${styles.discordBtn} ${styles.socialBtn}`}>
                         <svg
                             width={20}
                             height={20}
@@ -26,7 +29,7 @@ export default function Auth() {
                     </button>
                 </a>
                 <a href="#" className="auth-button">
-                    <button type="button" className="btn btn-light social-btn">
+                    <button type="button" className={`${styles.btn} btn btn-light ${styles.socialBtn}`}>
                         <svg
                             width="20px"
                             height="20px"
@@ -64,7 +67,7 @@ export default function Auth() {
                     </button>
                 </a>
                 <a href="#" className="auth-button">
-                    <button type="button" className="btn btn-light social-btn">
+                    <button type="button" className={`${styles.btn} btn btn-light ${styles.socialBtn}`}>
                         <svg
                             height="20px"
                             width="20px"
@@ -93,14 +96,14 @@ export default function Auth() {
                         Продолжить с VK
                     </button>
                 </a>
-                <a href="{% url 'auth' %}" className="auth-button">
-                    <button type="button" className="btn btn-light">
+                <a href="/auth/email" className="auth-button">
+                    <button type="button" className={`${styles.btn} btn btn-light`}>
                         Продолжить с Email
                     </button>
                 </a>
-                <hr/>
+                <hr className={styles.authSeparator}/>
                 <a href="/" className="home-button">
-                    <button type="button" className="btn btn-light">
+                    <button type="button" className={`${styles.btn} btn btn-outline-secondary`}>
                         На главную
                     </button>
                 </a>

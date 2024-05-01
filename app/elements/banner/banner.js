@@ -10,7 +10,7 @@ export default function Banner() {
                 loop
                 autoPlay
                 className= {styles.big_banner_video}
-                src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4"
+                src="https://storage.anitype.fun//op_rotate/50205/50205.webm"
             />
         </div>
     );

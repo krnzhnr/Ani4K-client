@@ -1,0 +1,59 @@
+.titleBack {
+    /* height: 100%; */
+    /* background-color:rgb(0, 0, 0); */
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.76) 100%),
+        linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(8, 8, 8) 65%),
+        url("https://desu.shikimori.one/uploads/poster/animes/56243/260c49a96df8a3b47d21d8f21fdc032c.jpeg")
+}
+
+.darkOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(5px);
+    z-index: -1;
+}
+
+.titleCenter {
+    margin: auto;
+}
+
+/* ОСНОВНОЙ КОНТЕЙНЕР */
+.titleContainer {
+    padding-top: 50px;
+    /* width: 85vh; */
+}
+
+.titleRow {
+    margin-top: 30px;
+}
+
+.titlePosterContainer {
+    max-width: 430px;
+    margin-bottom: 1rem;
+}
+
+.titlePosterFluid {
+    border-radius: 20px;
+}
+
+.h6 {
+    color: hsla(0, 0%, 100%, .6);
+    min-width: 30%;
+    max-width: 30%;
+}
+
+.titleDiscrTitle {
+    color: hsla(0, 0%, 100%, .6);
+    line-height: 1.5;
+}
+
+.titleDiscr {
+    margin-top: 1rem;
+}
