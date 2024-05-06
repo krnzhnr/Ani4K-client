@@ -1,7 +1,5 @@
 .container {
     position: relative;
-    /*max-width: 1800px;*/
-    margin: auto;
     top: 130px;
 }
 
@@ -12,9 +10,16 @@
     margin-bottom: 3rem;
 }
 
-.cardList {
+.gridSidebar {
     display: flex;
-    /* flex-direction: column; */
+}
+
+/* .cardList {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     flex-wrap: wrap;
-}
+
+    max-width: fit-content;
+
+} */

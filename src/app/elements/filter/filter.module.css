@@ -1,0 +1,22 @@
+.sidebarContainer {
+    color: aliceblue;
+    border: 2px solid #333 !important;
+    border-radius: 5px;
+    height: fit-content;
+    padding: 1rem;
+}
+
+.sidebarHeader {
+    display: flex;
+    justify-content: center;
+
+}
+
+.sidebarButtonGroup {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.sidebarCheck {
+    margin-right: 0.5rem;
+}

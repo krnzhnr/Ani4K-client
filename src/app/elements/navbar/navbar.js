@@ -1,5 +1,7 @@
 import styles from "./navbar.module.css"
 import React from "react";
+import Image from "next/image";
+import Logo from "@/public/next_white.svg"
 
 export default function Navbar() {
     return (
@@ -7,7 +9,10 @@ export default function Navbar() {
         <nav className={`${styles.navbar} navbar navbar-expand-lg`}>
             <div className={`${styles.containerFluid} container-fluid`}>
                 <a className={`${styles.navbarBrand} navbar-brand`} href="/">
-                    Ani4K
+                    <Image
+                    src={Logo}
+                    width={150}
+                    />
                 </a>
                 <button
                     className="navbar-toggler"

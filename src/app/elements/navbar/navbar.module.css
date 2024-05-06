@@ -14,8 +14,10 @@
 
 /* Логотип сайта */
 .navbarBrand {
+    display: flex;
     font-size: 1.8rem;
     padding-left: 1%;
+    align-items: center;
 }
 
 /* НАВИГАЦИОННЫЕ ССЫЛКИ + ПОИСК/ВХОД */
