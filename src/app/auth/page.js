@@ -1,4 +1,4 @@
-import styles from "@/app/auth/auth.module.css"
+import styles from "@/src/app/auth/auth.module.css"
 
 export default function Page() {
     return (

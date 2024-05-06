@@ -1,4 +1,4 @@
-import styles from "@/app/auth/email/email.module.css"
+import styles from "@/src/app/auth/email/email.module.css"
 
 export default function AuthEmail() {
     return (
