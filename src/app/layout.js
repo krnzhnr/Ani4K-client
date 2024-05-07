@@ -1,9 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import {Exo_2} from "next/font/google";
+import { Exo_2 } from "next/font/google";
 import "./globals.css";
 
 
-const font = Exo_2({subsets: ["cyrillic"], weight: '400'});
+const font = Exo_2({ subsets: ["cyrillic"], weight: '400' });
 
 
 export const metadata = {
@@ -13,10 +13,10 @@ export const metadata = {
 
 // eslint-disable-next-line react-hooks/rules-of-hooks
 
-export default function RootLayout({children}) {
+export default function RootLayout({ children }) {
     return (
-        <html lang="en">
-        <body className={font.className}>{children}</body>
+        <html lang="ru">
+            <body className={font.className}>{children}</body>
         </html>
     );
 }

@@ -9,6 +9,10 @@ import FilterSideBar from "../../elements/filter/filter";
 
 
 export default function FourK() {
+    useEffect(() => {
+        import('bootstrap/dist/js/bootstrap.bundle.min.js');
+    }, []);
+
     const [movies, setMovies] = useState([]);
 
     useEffect(() => {
@@ -31,27 +35,16 @@ export default function FourK() {
                             {movies.map((movie) => (
                                 <NewCard
                                     key={movie.id}
-                                    username={movie.username}
-                                    url={movie.url}
-                                    email={movie.email}
+                                    poster={movie.poster}
+                                    name={movie.name}
+                                    description={movie.description}
+                                    id={movie.id}
                                 />
                             ))}
                         </>
                     </div>
                     <FilterSideBar />
                 </div>
-                {/* <div className={`${styles.cardList} `}>
-                    <div>
-                        {movies.map((movie) => (
-                            <Card
-                                key={movie.id}
-                                name={movie.name}
-                                temperament={movie.temperament}
-                                reference_image_id={movie.reference_image_id}
-                            />
-                        ))}
-                    </div>
-                </div> */}
             </div>
         </>
     );

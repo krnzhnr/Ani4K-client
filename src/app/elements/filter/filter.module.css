@@ -20,3 +20,8 @@
 .sidebarCheck {
     margin-right: 0.5rem;
 }
+
+.sidebarGenre,
+.sidebarGenreDropdown {
+    background-color: black;
+}

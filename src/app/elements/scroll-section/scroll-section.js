@@ -17,7 +17,6 @@ export default function ScrollSection() {
         getMovies();
     }, []);
 
-
     return (
         <section className={`${styles.containerFluid} container-fluid`}>
             <a className={styles.scrollSectionHeader} href="/grid/available-in-4k">
@@ -28,9 +27,10 @@ export default function ScrollSection() {
                     {movies.map((movie) => (
                         <Card
                             key={movie.id}
+                            poster={movie.poster}
                             name={movie.name}
-                            temperament={movie.temperament}
-                            reference_image_id={movie.reference_image_id}
+                            description={movie.description}
+                            id={movie.id}
                         />
                     ))}
                 </>

@@ -5,13 +5,9 @@ import axios from 'axios';
 //     baseURL: 'http://127.0.0.1:8000/api/', // Замените на URL вашего сервера Django
 // });
 
-
-
 async function fetchMovies() {
     try {
-        // const response = await axios.get('https://api.thedogapi.com/v1/breeds'); // Замените URL_API на фактический URL вашего API
-        const response = await axios.get('http://26.123.33.86:8000/api/users/'); // Замените URL_API на фактический URL вашего API
-
+        const response = await axios.get('http://26.123.33.86:8000/api/releases/');
         console.log(response.data)
         return response.data; // Это массив фильмов
     } catch (error) {

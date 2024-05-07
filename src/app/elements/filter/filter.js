@@ -110,7 +110,8 @@ export default function FilterSideBar() {
                         </label>
                     </div>
                 </div>
-
+                <hr/>
+                <h4>Жанр</h4>
             </div>
         </div>
     )
