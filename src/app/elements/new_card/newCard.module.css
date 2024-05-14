@@ -3,10 +3,15 @@
 }
 
 .card {
+    /* box-sizing: border-box; */
     width: 100%;
-    max-height: 150px;
+    /* max-height: 170px; */
     overflow: hidden;
     transition: transform 0.2s;
+}
+
+.cardBottom {
+    max-height: 100%;
 }
 
 .card:hover {
@@ -27,8 +32,8 @@
     overflow: hidden;
     max-width: 266px;
     min-width: 266px;
-    max-height: 148px;
-    min-height: 148px;
+    max-height: 175.8px;
+    min-height: 175.8px;
     z-index: 14;
 }
 
@@ -51,4 +56,8 @@
     background-color: black;
     border: 2px solid #333;
     color: white;
+}
+
+.cardDiscr {
+    height: 4.8rem;
 }

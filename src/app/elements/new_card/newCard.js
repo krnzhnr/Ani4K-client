@@ -1,6 +1,6 @@
 import styles from "@/src/app/elements/new_card/newCard.module.css"
 
-export default function NewCard({ poster, name, description, id }) {
+export default function NewCard({ poster, name, description, genre }) {
     return (
         <a className={styles.cardItem} href="/title">
             <div className={`${styles.card} card mb-3`} >
@@ -11,20 +11,19 @@ export default function NewCard({ poster, name, description, id }) {
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">
-                            <h5 className="card-title">{name}</h5>
-                            <p className={`${styles.cardText} card-text`}>
+                            <h5 className="card-title text-truncate fw-semibold">{name}</h5>
+                            <p className={`${styles.cardDiscr} card-text text-truncate text-wrap 1h-1`} id="description">
                                 {description}
                             </p>
                             <p className={`${styles.cardText} card-text`}>
                                 <small className="text-dark-emphasis">
-                                    {id}
+                                    {genre}
                                 </small>
                             </p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </a>
     )
 }

@@ -10,8 +10,8 @@ export default function Navbar() {
             <div className={`${styles.containerFluid} container-fluid`}>
                 <a className={`${styles.navbarBrand} navbar-brand`} href="/">
                     <Image
-                    src={Logo}
-                    width={150}
+                        src={Logo}
+                        width={150}
                     />
                 </a>
                 <button
@@ -23,7 +23,7 @@ export default function Navbar() {
                     aria-expanded="false"
                     aria-label="Переключатель навигации"
                 >
-                    <span className="navbar-toggler-icon"/>
+                    <span className="navbar-toggler-icon" />
                 </button>
                 <div className={`${styles.navbarCollapse} collapse navbar-collapse`} id="navbarNavAltMarkup">
                     <div className={`${styles.navbarNavItems} navbar-nav mr-auto`}>
@@ -34,7 +34,7 @@ export default function Navbar() {
                             Каталог
                         </a>
                         <a className={`${styles.navbarNavLink} nav-link`} href="/grid/available-in-4k">
-                            4K UHD
+                            4K
                         </a>
                         <a className={`${styles.navbarNavLink} nav-link disabled`}>Отключенная <span
                             className="badge bg-secondary">Скоро...</span></a>

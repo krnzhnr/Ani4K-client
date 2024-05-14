@@ -65,14 +65,16 @@
 }
 
 /* Текст и заголовок карточки */
-.cardTitle, .cardText {
+.cardTitle,
+.cardText {
     display: flex;
     position: relative;
     /*transform: translate(-50%, -50%);*/
     opacity: 0;
     transition: opacity 0.3s ease-in-out;
     color: white;
-    z-index: 2; /* Помещаем текст над тенью */
+    z-index: 2;
+    /* Помещаем текст над тенью */
 }
 
 .cardTitle {
@@ -81,6 +83,8 @@
 
 .cardText {
     top: -1rem;
+    max-height: 5.3rem;
+    overflow: hidden;
 }
 
 /* Псевдоэлемент для тени */

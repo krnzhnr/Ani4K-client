@@ -7,7 +7,9 @@ import axios from 'axios';
 
 async function fetchMovies() {
     try {
-        const response = await axios.get('http://26.123.33.86:8000/api/releases/');
+        const response = await axios.get('https://dzwmw.wiremockapi.cloud/json/releases');
+
+        // const response = await axios.get('http://26.123.33.86:8000/api/releases/');
         console.log(response.data)
         return response.data; // Это массив фильмов
     } catch (error) {

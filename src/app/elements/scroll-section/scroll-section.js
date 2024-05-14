@@ -30,7 +30,7 @@ export default function ScrollSection() {
                             poster={movie.poster}
                             name={movie.name}
                             description={movie.description}
-                            id={movie.id}
+                            genre={movie.genre}
                         />
                     ))}
                 </>

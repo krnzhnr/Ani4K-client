@@ -38,7 +38,7 @@ export default function FourK() {
                                     poster={movie.poster}
                                     name={movie.name}
                                     description={movie.description}
-                                    id={movie.id}
+                                    genre={movie.genre}
                                 />
                             ))}
                         </>
